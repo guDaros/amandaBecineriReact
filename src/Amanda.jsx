@@ -477,7 +477,7 @@ const GlobalStyles = () => (
       gap: 1.5rem;
       justify-content: center;
       flex-wrap: wrap;
-      margin-top: 2rem;
+      
     }
 
     .cta-button {
@@ -1816,6 +1816,7 @@ const GlobalStyles = () => (
 
       .hero-content {
         padding: 0 1rem;
+        // margin-bottom: 5rem;
       }
 
       .about-container {
@@ -1864,7 +1865,6 @@ const GlobalStyles = () => (
         font-size: 2rem;
       }
     }
-
     /* Media query para tablets */
     @media screen and (min-width: 769px) and (max-width: 1024px) {
       .container {
@@ -1992,6 +1992,20 @@ const GlobalStyles = () => (
     height: 190px;
   }
 }
+  .hero-content h1{
+    font-size:1.7rem
+  }
+    .hero .description{
+    font-size: 1rem;
+    }
+.cta-button{
+padding: 0.5rem 1.5rem;
+}
+
+.hero{
+min-height: 70vh;
+}
+
   `}</style>
 );
 

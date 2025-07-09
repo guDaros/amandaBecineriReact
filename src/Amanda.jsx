@@ -2608,6 +2608,7 @@ const ContactSection = ({ openWhatsApp }) => {
           <div className="contact-info-item">
             <h4>Horários</h4>
             <p>Segunda à Sexta: 9h às 21h</p>
+            <p>Sábado: 9h às 12h</p>
           </div>
           <div className="contact-info-item">
             <h4>Localização</h4>
@@ -2625,8 +2626,8 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <div className="contact-info">
-          <h3 className="title-font">Amanda Becineri - Psicóloga</h3>
-          <p className="body-font">CRP 06/123456</p>
+          <h3 className="title-font">Amanda de Freitas Moura Becineri - CRP (06/213856)</h3>
+          {/* <p className="body-font">CRP 06/123456</p> */}
           <p className="body-font">Cuidado especializado em saúde mental</p>
         </div>
 

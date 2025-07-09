@@ -1785,11 +1785,11 @@ const GlobalStyles = () => (
       }
 
       .quote-text {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
       }
 
       .quote-author {
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
 
       .cta-consultation-title {
